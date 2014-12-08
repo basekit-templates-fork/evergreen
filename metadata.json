@@ -1,7 +1,7 @@
 {
-	"name":"Beta Studio",
-	"thumbnail":"betastudio.png",
-	"screenshot":"betastudio.png",
+	"name":"Evergreen",
+	"thumbnail":"evergreen.png",
+	"screenshot":"evergreen.png",
 	"templateType":"standard",
     "pageTypes": ["home"],
     "tags": {
@@ -14,11 +14,11 @@
         "Swatch 1": {
             "color1":"#ffffff",
             "color2":"#fff5f1",
-            "color3":"#575d61",
+            "color3":"#1E92CF",
             "color4":"#9d9d9d",
             "color5":"#acacac",
-            "color6":"#f29771",
-            "color7":"#f29771"
+            "color6":"#00737C",
+            "color7":"#1a3148"
         },
         "Swatch 2": {
             "color1":"#ffffff",

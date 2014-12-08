@@ -1,6 +1,6 @@
-hatch
+EVERGREEN
 =====
 
-BaseKit's Hatch Template
+BaseKit's Evergreen Template
 
 + Switched to develop branch - 07/06/13
