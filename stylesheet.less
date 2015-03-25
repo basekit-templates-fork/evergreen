@@ -1,7 +1,7 @@
 /* ===============================
    IMPORT CSS
    =============================== */
-   
+
 @import "@{templateCommon}/basekit-bootstrap.less";
 
 @import "@{templateLocal}/css/common-forms.less";
@@ -34,7 +34,10 @@ title {
   display: block!important;
 }
 
-
+.main .widget {
+  margin: 0 0 20px;
+  clear: both;
+}
 
 
 /* ===============================
@@ -237,7 +240,7 @@ footer.bk-footer .widget.profile {
   color: @font-swatch6-color;
   line-height:@font-swatch6-line-height;
   letter-spacing: @font-swatch6-letter-spacing;
-  
+
 }
 
 .widget.extendednavigation ul li a:hover, .widget.extendednavigation ul li.folder:hover {
@@ -364,10 +367,10 @@ footer.bk-footer .widget.profile {
   text-decoration: none;
   letter-spacing: 1px;
   text-shadow: 0 1px 0px rgba(0,0,0,0.3);
-  
+
 }
 
-.widget.feature button:hover 
+.widget.feature button:hover
 {
   box-shadow: 0 0 0 2px rgba(110,110,110,0.5);
   cursor: pointer;
@@ -385,11 +388,11 @@ footer.bk-footer .widget.profile {
    =============================== */
 
 .widget.gallery {
- 
+
   .inner {
     background-color: @color-swatch1;
     .title, .description {
-      
+
       color: @font-swatch7-color;
     }
   }
@@ -451,6 +454,9 @@ footer.bk-footer .widget.profile {
     border-radius: 4px;
     cursor: pointer;
     display: inline-block;
+    .more, .less {
+      color: @font-swatch7-color;
+    }
 }
 
 .widget.content span.expand:hover,
@@ -482,7 +488,7 @@ footer.bk-footer .widget.profile {
     font-weight: @font-swatch4-font-weight;
     font-size: @font-swatch4-font-size;
     text-align: center;
-    
+
     line-height: @font-swatch4-line-height;
 }
 
@@ -625,7 +631,7 @@ hr.line.align-right {
     .review-link {
       margin-left: 24px;
       font-size: bkscale(@font-swatch5-font-size, 0.8);
-      a { 
+      a {
         background-color: @color-swatch3;
         color: @color-swatch1;
         padding: 0.2em 0.7em;
@@ -728,9 +734,9 @@ hr.line.align-right {
         @media @mobile {
           width: (@twitterProfilePicSize * 0.45);
           height: (@twitterProfilePicSize * 0.45);
-          
+
         }
-        
+
         img {
           width: 100%;
           height: auto;
@@ -795,26 +801,32 @@ hr.line.align-right {
   a, a:hover {
     padding: 0 1.6em;
     padding-left: 50px;
-    
-    @media @mobile-up {
-      padding: 0;
-      border: none;
-      box-shadow: none;
-      border-radius: 0;
-      color: @font-swatch5-color;
-      background: transparent;
-      text-shadow: none;
-      letter-spacing: 0;
-      font-size: @font-swatch5-font-size;
-      height: auto;
-      line-height: @font-swatch5-line-height;
-      cursor: default;
 
-    }
+    // @media @mobile-up {
+    //   padding: 0;
+    //   border: none;
+    //   box-shadow: none;
+    //   border-radius: 0;
+    //   color: @font-swatch5-color;
+    //   background: transparent;
+    //   text-shadow: none;
+    //   letter-spacing: 0;
+    //   font-size: @font-swatch5-font-size;
+    //   height: auto;
+    //   line-height: @font-swatch5-line-height;
+    //   cursor: default;
+
+    // }
   }
 
 }
 
+.widget.clicktocall a {
+    //@media screen and (min-width: 560px) {
+      background-image: image('/images/clicktocall.png');
+      background-repeat: no-repeat;
+      }
+    //}
 
 
 
@@ -857,7 +869,7 @@ hr.line.align-right {
    padding: 15px;
   background-color: lighten(@color-swatch5,27%);
 
-  
+
   .widget.signupform fieldset {
     padding: 0;
     border: 0;
@@ -896,7 +908,7 @@ hr.line.align-right {
       -ms-flex-align: center;
       align-items: center;
 
-     
+
 
       label {
         // Flex
@@ -959,7 +971,7 @@ hr.line.align-right {
 }
 
 
-  
+
 
 
 /* ===============================
@@ -1014,7 +1026,7 @@ hr.line.align-right {
     background-color: @font-swatch7-background-color-hover;
 }
 
-.widget.socialicons span a:hover, .widget.profile 
+.widget.socialicons span a:hover, .widget.profile
 .bk-profile-socialicons span a:hover {
     background-color: @font-swatch7-background-color-hover;
 }
@@ -1158,8 +1170,8 @@ hr.line.align-right {
         -ms-flex-align: center;
         align-items: center;
       }
-        
-        
+
+
 
         label {
           display: block;
@@ -1255,9 +1267,9 @@ hr.line.align-right {
     padding-top: 20px;
     padding-bottom: 40px;
     margin-top: 0;
-    -webkit-user-select: none;  
-    -moz-user-select: none;     
-    -ms-user-select: none; 
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     @media @mobile {
       padding-top: 5px;
       padding-bottom: 5px;
@@ -1281,8 +1293,8 @@ hr.line.align-right {
     }
   }
   .slideshow-widget {
-    -webkit-user-select: none;  
-    -moz-user-select: none;    
+    -webkit-user-select: none;
+    -moz-user-select: none;
     -ms-user-select: none;
 
     // Buttons prev/next
@@ -1301,7 +1313,7 @@ hr.line.align-right {
         -ms-transform: scale(0.75);
         transform: scale(0.75);
       }
-      
+
       &:after {
         display: block;
         content: "";
@@ -1315,7 +1327,7 @@ hr.line.align-right {
         position: absolute;
         top: 50%;
         margin: -17px 0 0 -17px;
-        
+
       }
       &:hover:after {
         background-color: darken(@color-swatch2, 10%);
@@ -1346,7 +1358,7 @@ hr.line.align-right {
       top: 0;
       left: 0;
       width: 60px;
-     
+
       @media @mobile {
         -webkit-transform: scale(0.75);
         -moz-transform: scale(0.75);
@@ -1372,7 +1384,7 @@ hr.line.align-right {
     left:0;
     right:0;
     top:auto;
-    background-color: fade(@color-swatch7, 80%); 
+    background-color: fade(@color-swatch7, 80%);
     .title, .description {
       display: inline-block;
       float: left;
@@ -1380,23 +1392,23 @@ hr.line.align-right {
     }
     .title {
       font-weight: bold;
-      color: @color-swatch2;
+      color: @font-swatch7-color;
       font-family: @font-swatch8-font-family;
       font-size: bkscale(@font-swatch5-font-size, 1.2);
       line-height: bkscale(@font-swatch5-line-height, 1.2);
-    
+
       @media @mobile {
         font-size: bkscale(@font-swatch5-font-size, 0.8);
         line-height: bkscale(@font-swatch5-line-height, 0.8);
       }
     }
     .description {
-      color: @color-swatch2;
+      color: @font-swatch7-color;
       clear: both;
-     
+
       font-size: bkscale(@font-swatch5-font-size, 1);
       line-height: bkscale(@font-swatch5-line-height, 1);
-      
+
       @media @mobile {
         font-size: bkscale(@font-swatch5-font-size, 0.7);
         line-height: bkscale(@font-swatch5-line-height, 0.8);
@@ -1496,7 +1508,7 @@ hr.line.align-right {
     .widget .extendednavigation ul {
         width: 100%;
         display: none;
-        padding: 36px 0 0 0; 
+        padding: 36px 0 0 0;
     }
 
     .widget .extendednavigation ul  li {
@@ -1509,6 +1521,9 @@ hr.line.align-right {
       padding: 0;
       background-position: right center;
       background-repeat: no-repeat;
+      &:after {
+        right: 0;
+      }
     }
 
     .widget .extendednavigation li:last-child {
@@ -1534,7 +1549,7 @@ hr.line.align-right {
     }
 
     .widget.extendednavigation ul li:hover > ul li a {
-        padding: 12px 18px;
+      padding: 12px 0;
     }
 
     .widget.extendednavigation ul li:hover > ul li a .text {
@@ -1558,7 +1573,7 @@ hr.line.align-right {
   /* FEATURE */
 
    .widget.feature .feature-bgimg {
-    height: 300px; 
+    height: 300px;
     }
 
   .widget.feature .content {
@@ -1567,11 +1582,11 @@ hr.line.align-right {
 
   .widget.feature h2 {
     line-height: 1;
-    font-size:bkscale(@font-swatch8-font-size, 0.8); 
+    font-size:bkscale(@font-swatch8-font-size, 0.8);
   }
 
   .widget.feature h3 {
-    font-size:bkscale(@font-swatch9-font-size, 0.8); 
+    font-size:bkscale(@font-swatch9-font-size, 0.8);
   }
 
     .widget.feature button {
@@ -1582,7 +1597,7 @@ hr.line.align-right {
 
 
 
-  
+
 
 }
 
@@ -1621,7 +1636,7 @@ hr.line.align-right {
     width: 100%;
   }
 
-  
+
 
 
   /* COMPANY NAME */
@@ -1635,7 +1650,7 @@ hr.line.align-right {
   /* FEATURE */
 
   .widget.feature .feature-bgimg {
-    height: 220px; 
+    height: 220px;
    }
 
   .widget.feature .content {
@@ -1652,7 +1667,7 @@ hr.line.align-right {
   }
 
   .widget.feature button {
-    margin: 1em 0; 
+    margin: 1em 0;
     font-size: .7em;
     padding: 8px 12px;
   }
