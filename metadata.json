@@ -1,64 +1,110 @@
 {
-	"name":"Evergreen",
-	"thumbnail":"evergreen.png",
-	"screenshot":"evergreen.png",
-	"templateType":"standard",
-    "pageTypes": ["home"],
+    "name": "Evergreen",
+    "thumbnail": "evergreen.png",
+    "screenshot": "evergreen-screenshot.jpg",
+    "templateType": "standard",
+    "pageTypes": [
+        "home"
+    ],
     "tags": {
-    "en": ["minimal", "clean", "floral", "modern", "creative", "typography", "simple", "contemporary", "flexible", "florist", "studio", "portfolio", "designer", "sans-serif"],
-    "es": ["minimalista", "limpio", "decorativo", "moderno", "creativo", "tipográfico", "simple", "contemporaneo", "flexible", "florista", "estudio", "portafolio", "diseñador", "sans-serif"],
-    "br": ["minimalista", "limpo", "florido", "moderno", "criativo", "tipográfico", "simples", "contemporâneo", "flexível", "florista", "estúdio", "portfolio", "designer", "sans-serif"]
+        "en": [
+            "minimal",
+            "clean",
+            "floral",
+            "modern",
+            "creative",
+            "typography",
+            "simple",
+            "contemporary",
+            "flexible",
+            "florist",
+            "studio",
+            "portfolio",
+            "designer",
+            "sans-serif"
+        ],
+        "es": [
+            "minimalista",
+            "limpio",
+            "decorativo",
+            "moderno",
+            "creativo",
+            "tipogr\u00e1fico",
+            "simple",
+            "contemporaneo",
+            "flexible",
+            "florista",
+            "estudio",
+            "portafolio",
+            "dise\u00f1ador",
+            "sans-serif"
+        ],
+        "br": [
+            "minimalista",
+            "limpo",
+            "florido",
+            "moderno",
+            "criativo",
+            "tipogr\u00e1fico",
+            "simples",
+            "contempor\u00e2neo",
+            "flex\u00edvel",
+            "florista",
+            "est\u00fadio",
+            "portfolio",
+            "designer",
+            "sans-serif"
+        ]
     },
-    "colorSwatches":
-    {
+    "colorSwatches": {
         "Swatch 1": {
-            "color1":"#ffffff",
-            "color2":"#fff5f1",
-            "color3":"#1E92CF",
-            "color4":"#9d9d9d",
-            "color5":"#acacac",
-            "color6":"#00737C",
-            "color7":"#1a3148"
+            "color1": "#ffffff",
+            "color2": "#fff5f1",
+            "color3": "#1E92CF",
+            "color4": "#9d9d9d",
+            "color5": "#acacac",
+            "color6": "#00737C",
+            "color7": "#1a3148"
         },
         "Swatch 2": {
-            "color1":"#ffffff",
-            "color2":"#ebf6ff",
-            "color3":"#99d2b1",
-            "color4":"#9d9d9d",
-            "color5":"#acacac",
-            "color6":"#7ab8ec",
-            "color7":"#7ab8ec"
+            "color1": "#ffffff",
+            "color2": "#ebf6ff",
+            "color3": "#99d2b1",
+            "color4": "#9d9d9d",
+            "color5": "#acacac",
+            "color6": "#7ab8ec",
+            "color7": "#7ab8ec"
         },
         "Swatch 3": {
-            "color1":"#ffffff",
-            "color2":"#fef5f5",
-            "color3":"#ffd464",
-            "color4":"#9d9d9d",
-            "color5":"#acacac",
-            "color6":"#ff6861",
-            "color7":"#ff6861"
+            "color1": "#ffffff",
+            "color2": "#fef5f5",
+            "color3": "#ffd464",
+            "color4": "#9d9d9d",
+            "color5": "#acacac",
+            "color6": "#ff6861",
+            "color7": "#ff6861"
         },
         "Swatch 4": {
-            "color1":"#ffffff",
-            "color2":"#f2fafb",
-            "color3":"#f6b8d2",
-            "color4":"#9d9d9d",
-            "color5":"#acacac",
-            "color6":"#acdee1",
-            "color7":"#acdee1"
+            "color1": "#ffffff",
+            "color2": "#f2fafb",
+            "color3": "#f6b8d2",
+            "color4": "#9d9d9d",
+            "color5": "#acacac",
+            "color6": "#acdee1",
+            "color7": "#acdee1"
         },
         "Swatch 5": {
-            "color1":"#ffffff",
-            "color2":"#f7f3f1",
-            "color3":"#f5927e",
-            "color4":"#9d9d9d",
-            "color5":"#acacac",
-            "color6":"#b39e94",
-            "color7":"#b39e94"
+            "color1": "#ffffff",
+            "color2": "#f7f3f1",
+            "color3": "#f5927e",
+            "color4": "#9d9d9d",
+            "color5": "#acacac",
+            "color6": "#b39e94",
+            "color7": "#b39e94"
         }
     },
     "fontSwatch": {
-       "title": "Montserrat",
+        "title": "Montserrat",
         "font1": {
             "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
             "font-size": "30px",
